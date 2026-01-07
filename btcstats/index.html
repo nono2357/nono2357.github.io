@@ -1,0 +1,4786 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Bitcoin adoption stats</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        
+        <link href="https://cdn.datatables.net/2.0.0/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+        
+        <link href="https://cdn.datatables.net/buttons/3.0.0/css/buttons.bootstrap5.min.css" rel="stylesheet">
+        
+        <style type="text/css">
+            body {
+                margin-left: 1em;
+                margin-bottom: 1em;
+            }
+            .dt-container {
+                margin-bottom: 3em;
+                width: fit-content;
+            }
+            table.dataTable {
+                width: auto !important;
+            }
+            table.dataTable td.cc {
+                text-align: center !important;
+            }
+            h2 {
+                margin-bottom: 1em;
+            }
+            h3 {
+                margin-left: 3em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bitcoin adoption stats</h1>
+        Powered by the <a href="https://en.wikipedia.org/wiki/Semantic_Web" target="_blank">Semantic Web</a><br/>
+        By Renaud Lifchitz (data based on <a href="https://btcmap.org/" target="_blank">BTC Map</a>, <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and <a href="https://www.wikidata.org/" target="_blank">Wikidata</a> as of 2026-01-07)
+        <br/><br/><br/>
+
+        <h2>Most "bitcoinized" countries</h2>
+        <h3>By absolute number of Bitcoin shops</h3>
+        <br/>
+        
+        <table id="table-countries-absolute" class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="cc">Rank</th>
+                    <th>Country</th>
+                    <th class="cc">Population</th>
+                    <th class="cc">Number of Bitcoin shops</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td class="cc">1</td>
+                        <td>United States</td>
+                        <td class="cc">340110988</td>
+                        <td class="cc">4071</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">2</td>
+                        <td>Brazil</td>
+                        <td class="cc">213421037</td>
+                        <td class="cc">2250</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">3</td>
+                        <td>El Salvador</td>
+                        <td class="cc">6029976</td>
+                        <td class="cc">1445</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">4</td>
+                        <td>South Africa</td>
+                        <td class="cc">62027503</td>
+                        <td class="cc">1331</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">5</td>
+                        <td>Czech Republic</td>
+                        <td class="cc">10909500</td>
+                        <td class="cc">1099</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">6</td>
+                        <td>Italy</td>
+                        <td class="cc">58850717</td>
+                        <td class="cc">1083</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">7</td>
+                        <td>Switzerland</td>
+                        <td class="cc">8962300</td>
+                        <td class="cc">825</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">8</td>
+                        <td>Germany</td>
+                        <td class="cc">83577140</td>
+                        <td class="cc">620</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">9</td>
+                        <td>Canada</td>
+                        <td class="cc">36991981</td>
+                        <td class="cc">585</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">10</td>
+                        <td>Mexico</td>
+                        <td class="cc">124777324</td>
+                        <td class="cc">566</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">11</td>
+                        <td>Kingdom of the Netherlands</td>
+                        <td class="cc">17100715</td>
+                        <td class="cc">464</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">12</td>
+                        <td>Thailand</td>
+                        <td class="cc">66188503</td>
+                        <td class="cc">433</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">13</td>
+                        <td>Spain</td>
+                        <td class="cc">48592909</td>
+                        <td class="cc">424</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">14</td>
+                        <td>Costa Rica</td>
+                        <td class="cc">5265575</td>
+                        <td class="cc">401</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">15</td>
+                        <td>Thailand</td>
+                        <td class="cc">66188503</td>
+                        <td class="cc">397</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">16</td>
+                        <td>France</td>
+                        <td class="cc">68605616</td>
+                        <td class="cc">358</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">17</td>
+                        <td>United Kingdom</td>
+                        <td class="cc">67326569</td>
+                        <td class="cc">353</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">18</td>
+                        <td>Portugal</td>
+                        <td class="cc">10347892</td>
+                        <td class="cc">348</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">19</td>
+                        <td>Georgia</td>
+                        <td class="cc">3717100</td>
+                        <td class="cc">338</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">20</td>
+                        <td>Poland</td>
+                        <td class="cc">37563071</td>
+                        <td class="cc">288</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">21</td>
+                        <td>Guatemala</td>
+                        <td class="cc">17263239</td>
+                        <td class="cc">284</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">22</td>
+                        <td>Slovakia</td>
+                        <td class="cc">5419451</td>
+                        <td class="cc">270</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">23</td>
+                        <td>Argentina</td>
+                        <td class="cc">47327407</td>
+                        <td class="cc">249</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">24</td>
+                        <td>Australia</td>
+                        <td class="cc">27309396</td>
+                        <td class="cc">201</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">25</td>
+                        <td>Austria</td>
+                        <td class="cc">8979894</td>
+                        <td class="cc">185</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">26</td>
+                        <td>Bulgaria</td>
+                        <td class="cc">6437360</td>
+                        <td class="cc">180</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">27</td>
+                        <td>Zambia</td>
+                        <td class="cc">19610769</td>
+                        <td class="cc">172</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">28</td>
+                        <td>Philippines</td>
+                        <td class="cc">112729484</td>
+                        <td class="cc">170</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">29</td>
+                        <td>Dominican Republic</td>
+                        <td class="cc">10760028</td>
+                        <td class="cc">134</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">30</td>
+                        <td>Suriname</td>
+                        <td class="cc">563402</td>
+                        <td class="cc">124</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">31</td>
+                        <td>Kenya</td>
+                        <td class="cc">48468138</td>
+                        <td class="cc">124</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">32</td>
+                        <td>Colombia</td>
+                        <td class="cc">52321152</td>
+                        <td class="cc">94</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">33</td>
+                        <td>Curaçao</td>
+                        <td class="cc">152849</td>
+                        <td class="cc">91</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">34</td>
+                        <td>New Zealand</td>
+                        <td class="cc">5118700</td>
+                        <td class="cc">87</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">35</td>
+                        <td>South Korea</td>
+                        <td class="cc">51466201</td>
+                        <td class="cc">76</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">36</td>
+                        <td>Bolivia</td>
+                        <td class="cc">12244159</td>
+                        <td class="cc">73</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">37</td>
+                        <td>Romania</td>
+                        <td class="cc">19053815</td>
+                        <td class="cc">72</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">38</td>
+                        <td>Honduras</td>
+                        <td class="cc">8303771</td>
+                        <td class="cc">69</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">39</td>
+                        <td>Slovenia</td>
+                        <td class="cc">2066880</td>
+                        <td class="cc">66</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">40</td>
+                        <td>Venezuela</td>
+                        <td class="cc">31250306</td>
+                        <td class="cc">66</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">41</td>
+                        <td>Peru</td>
+                        <td class="cc">33726000</td>
+                        <td class="cc">60</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">42</td>
+                        <td>Japan</td>
+                        <td class="cc">123802000</td>
+                        <td class="cc">59</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">43</td>
+                        <td>Belgium</td>
+                        <td class="cc">11825551</td>
+                        <td class="cc">59</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">44</td>
+                        <td>Paraguay</td>
+                        <td class="cc">6811297</td>
+                        <td class="cc">53</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">45</td>
+                        <td>Greece</td>
+                        <td class="cc">10482487</td>
+                        <td class="cc">47</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">46</td>
+                        <td>Cuba</td>
+                        <td class="cc">10985974</td>
+                        <td class="cc">46</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">47</td>
+                        <td>Tanzania</td>
+                        <td class="cc">57310019</td>
+                        <td class="cc">43</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">48</td>
+                        <td>Turkey</td>
+                        <td class="cc">85372377</td>
+                        <td class="cc">43</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">49</td>
+                        <td>Indonesia</td>
+                        <td class="cc">275439000</td>
+                        <td class="cc">38</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">50</td>
+                        <td>India</td>
+                        <td class="cc">1477519529</td>
+                        <td class="cc">38</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">51</td>
+                        <td>Norway</td>
+                        <td class="cc">5594340</td>
+                        <td class="cc">33</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">52</td>
+                        <td>Hungary</td>
+                        <td class="cc">9603634</td>
+                        <td class="cc">33</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">53</td>
+                        <td>Nigeria</td>
+                        <td class="cc">211400708</td>
+                        <td class="cc">31</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">54</td>
+                        <td>Finland</td>
+                        <td class="cc">5608218</td>
+                        <td class="cc">31</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">55</td>
+                        <td>Iran</td>
+                        <td class="cc">92417700</td>
+                        <td class="cc">30</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">56</td>
+                        <td>Ireland</td>
+                        <td class="cc">5149139</td>
+                        <td class="cc">28</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">57</td>
+                        <td>Panama</td>
+                        <td class="cc">4570133</td>
+                        <td class="cc">28</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">58</td>
+                        <td>Croatia</td>
+                        <td class="cc">3871833</td>
+                        <td class="cc">28</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">59</td>
+                        <td>Mozambique</td>
+                        <td class="cc">29668834</td>
+                        <td class="cc">23</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">60</td>
+                        <td>Ghana</td>
+                        <td class="cc">32833031</td>
+                        <td class="cc">23</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">61</td>
+                        <td>Uganda</td>
+                        <td class="cc">47123531</td>
+                        <td class="cc">23</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">62</td>
+                        <td>Laos</td>
+                        <td class="cc">6858160</td>
+                        <td class="cc">23</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">63</td>
+                        <td>Sweden</td>
+                        <td class="cc">10609460</td>
+                        <td class="cc">22</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">64</td>
+                        <td>Malaysia</td>
+                        <td class="cc">32447385</td>
+                        <td class="cc">22</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">65</td>
+                        <td>Malta</td>
+                        <td class="cc">553214</td>
+                        <td class="cc">20</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">66</td>
+                        <td>Ukraine</td>
+                        <td class="cc">41167335</td>
+                        <td class="cc">20</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">67</td>
+                        <td>Vietnam</td>
+                        <td class="cc">96208984</td>
+                        <td class="cc">19</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">68</td>
+                        <td>Chile</td>
+                        <td class="cc">19458000</td>
+                        <td class="cc">19</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">69</td>
+                        <td>Lebanon</td>
+                        <td class="cc">6100075</td>
+                        <td class="cc">18</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">70</td>
+                        <td>Ecuador</td>
+                        <td class="cc">16938986</td>
+                        <td class="cc">18</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">71</td>
+                        <td>Armenia</td>
+                        <td class="cc">2930450</td>
+                        <td class="cc">16</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">72</td>
+                        <td>Cyprus</td>
+                        <td class="cc">1344976</td>
+                        <td class="cc">15</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">73</td>
+                        <td>Nicaragua</td>
+                        <td class="cc">5142098</td>
+                        <td class="cc">13</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">74</td>
+                        <td>People&#39;s Republic of China</td>
+                        <td class="cc">1442965000</td>
+                        <td class="cc">12</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">75</td>
+                        <td>Uruguay</td>
+                        <td class="cc">3444263</td>
+                        <td class="cc">12</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">76</td>
+                        <td>Israel</td>
+                        <td class="cc">9840000</td>
+                        <td class="cc">12</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">77</td>
+                        <td>Liechtenstein</td>
+                        <td class="cc">37922</td>
+                        <td class="cc">10</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">78</td>
+                        <td>Denmark</td>
+                        <td class="cc">5822863</td>
+                        <td class="cc">10</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">79</td>
+                        <td>United Arab Emirates</td>
+                        <td class="cc">9890400</td>
+                        <td class="cc">10</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">80</td>
+                        <td>Taiwan</td>
+                        <td class="cc">23317031</td>
+                        <td class="cc">10</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">81</td>
+                        <td>Ivory Coast</td>
+                        <td class="cc">31165654</td>
+                        <td class="cc">9</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">82</td>
+                        <td>Bosnia and Herzegovina</td>
+                        <td class="cc">3816459</td>
+                        <td class="cc">9</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">83</td>
+                        <td>Singapore</td>
+                        <td class="cc">5866139</td>
+                        <td class="cc">9</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">84</td>
+                        <td>Namibia</td>
+                        <td class="cc">2533794</td>
+                        <td class="cc">8</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">85</td>
+                        <td>Senegal</td>
+                        <td class="cc">16876720</td>
+                        <td class="cc">8</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">86</td>
+                        <td>Montenegro</td>
+                        <td class="cc">617213</td>
+                        <td class="cc">7</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">87</td>
+                        <td>Burundi</td>
+                        <td class="cc">13689450</td>
+                        <td class="cc">7</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">88</td>
+                        <td>Andorra</td>
+                        <td class="cc">87486</td>
+                        <td class="cc">7</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">89</td>
+                        <td>Latvia</td>
+                        <td class="cc">1856932</td>
+                        <td class="cc">7</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">90</td>
+                        <td>Lithuania</td>
+                        <td class="cc">2860002</td>
+                        <td class="cc">7</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">91</td>
+                        <td>Iceland</td>
+                        <td class="cc">364260</td>
+                        <td class="cc">6</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">92</td>
+                        <td>Russia</td>
+                        <td class="cc">146119928</td>
+                        <td class="cc">6</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">93</td>
+                        <td>Madagascar</td>
+                        <td class="cc">31964956</td>
+                        <td class="cc">5</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">94</td>
+                        <td>Luxembourg</td>
+                        <td class="cc">681987</td>
+                        <td class="cc">5</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">95</td>
+                        <td>Sri Lanka</td>
+                        <td class="cc">21444000</td>
+                        <td class="cc">5</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">96</td>
+                        <td>Serbia</td>
+                        <td class="cc">6605168</td>
+                        <td class="cc">5</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">97</td>
+                        <td>Serbia</td>
+                        <td class="cc">6605168</td>
+                        <td class="cc">4</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">98</td>
+                        <td>Mauritius</td>
+                        <td class="cc">1264613</td>
+                        <td class="cc">4</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">99</td>
+                        <td>North Macedonia</td>
+                        <td class="cc">1836713</td>
+                        <td class="cc">4</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">100</td>
+                        <td>Trinidad and Tobago</td>
+                        <td class="cc">1369125</td>
+                        <td class="cc">4</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">101</td>
+                        <td>Cape Verde</td>
+                        <td class="cc">555988</td>
+                        <td class="cc">4</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">102</td>
+                        <td>Botswana</td>
+                        <td class="cc">2480244</td>
+                        <td class="cc">4</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">103</td>
+                        <td>Zimbabwe</td>
+                        <td class="cc">15178979</td>
+                        <td class="cc">3</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">104</td>
+                        <td>Morocco</td>
+                        <td class="cc">36828330</td>
+                        <td class="cc">3</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">105</td>
+                        <td>Cambodia</td>
+                        <td class="cc">17423880</td>
+                        <td class="cc">3</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">106</td>
+                        <td>Maldives</td>
+                        <td class="cc">436330</td>
+                        <td class="cc">3</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">107</td>
+                        <td>Jamaica</td>
+                        <td class="cc">2697983</td>
+                        <td class="cc">3</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">108</td>
+                        <td>Jordan</td>
+                        <td class="cc">10428241</td>
+                        <td class="cc">3</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">109</td>
+                        <td>Ethiopia</td>
+                        <td class="cc">128691692</td>
+                        <td class="cc">2</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">110</td>
+                        <td>Albania</td>
+                        <td class="cc">2811655</td>
+                        <td class="cc">2</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">111</td>
+                        <td>Algeria</td>
+                        <td class="cc">46164219</td>
+                        <td class="cc">2</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">112</td>
+                        <td>Aruba</td>
+                        <td class="cc">106739</td>
+                        <td class="cc">2</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">113</td>
+                        <td>Vanuatu</td>
+                        <td class="cc">300019</td>
+                        <td class="cc">2</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">114</td>
+                        <td>Belize</td>
+                        <td class="cc">411106</td>
+                        <td class="cc">2</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">115</td>
+                        <td>Democratic Republic of the Congo</td>
+                        <td class="cc">105789731</td>
+                        <td class="cc">2</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">116</td>
+                        <td>Egypt</td>
+                        <td class="cc">114535772</td>
+                        <td class="cc">2</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">117</td>
+                        <td>São Tomé and Príncipe</td>
+                        <td class="cc">204327</td>
+                        <td class="cc">2</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">118</td>
+                        <td>Kyrgyzstan</td>
+                        <td class="cc">7281800</td>
+                        <td class="cc">2</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">119</td>
+                        <td>Pakistan</td>
+                        <td class="cc">223773700</td>
+                        <td class="cc">2</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">120</td>
+                        <td>Mongolia</td>
+                        <td class="cc">3409939</td>
+                        <td class="cc">2</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">121</td>
+                        <td>Sint Maarten</td>
+                        <td class="cc">43847</td>
+                        <td class="cc">2</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">122</td>
+                        <td>Bhutan</td>
+                        <td class="cc">787424</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">123</td>
+                        <td>Saudi Arabia</td>
+                        <td class="cc">33000000</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">124</td>
+                        <td>San Marino</td>
+                        <td class="cc">33600</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">125</td>
+                        <td>Angola</td>
+                        <td class="cc">36749906</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">126</td>
+                        <td>Myanmar</td>
+                        <td class="cc">53370609</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">127</td>
+                        <td>Bangladesh</td>
+                        <td class="cc">171466990</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">128</td>
+                        <td>Belarus</td>
+                        <td class="cc">9109280</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">129</td>
+                        <td>Benin</td>
+                        <td class="cc">14111034</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">130</td>
+                        <td>Kosovo</td>
+                        <td class="cc">1586659</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">131</td>
+                        <td>Central African Republic</td>
+                        <td class="cc">5152421</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">132</td>
+                        <td>Monaco</td>
+                        <td class="cc">38423</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">133</td>
+                        <td>The Gambia</td>
+                        <td class="cc">2639916</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">134</td>
+                        <td>Lesotho</td>
+                        <td class="cc">2007201</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">135</td>
+                        <td>Estonia</td>
+                        <td class="cc">1369995</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">136</td>
+                        <td>Gabon</td>
+                        <td class="cc">2025137</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="cc">137</td>
+                        <td>Guyana</td>
+                        <td class="cc">777859</td>
+                        <td class="cc">1</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+
+        <h3>Per capita</h3>
+        
+        <table id="table-countries-percapita" class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="cc">Rank</th>
+                    <th>Country</th>
+                    <th class="cc">Population</th>
+                    <th class="cc">Number of Bitcoin shops</th>
+                    <th class="cc">Bitcoin shops per 1M capita</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td class="cc">1</td>
+                    <td>Curaçao</td>
+                    <td class="cc">152849</td>
+                    <td class="cc">91</td>
+                    <td class="cc">595.36</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">2</td>
+                    <td>Liechtenstein</td>
+                    <td class="cc">37922</td>
+                    <td class="cc">10</td>
+                    <td class="cc">263.7</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">3</td>
+                    <td>El Salvador</td>
+                    <td class="cc">6029976</td>
+                    <td class="cc">1445</td>
+                    <td class="cc">239.64</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">4</td>
+                    <td>Suriname</td>
+                    <td class="cc">563402</td>
+                    <td class="cc">124</td>
+                    <td class="cc">220.09</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">5</td>
+                    <td>Czech Republic</td>
+                    <td class="cc">10909500</td>
+                    <td class="cc">1099</td>
+                    <td class="cc">100.74</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">6</td>
+                    <td>Switzerland</td>
+                    <td class="cc">8962300</td>
+                    <td class="cc">825</td>
+                    <td class="cc">92.05</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">7</td>
+                    <td>Georgia</td>
+                    <td class="cc">3717100</td>
+                    <td class="cc">338</td>
+                    <td class="cc">90.93</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">8</td>
+                    <td>Andorra</td>
+                    <td class="cc">87486</td>
+                    <td class="cc">7</td>
+                    <td class="cc">80.01</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">9</td>
+                    <td>Costa Rica</td>
+                    <td class="cc">5265575</td>
+                    <td class="cc">401</td>
+                    <td class="cc">76.16</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">10</td>
+                    <td>Slovakia</td>
+                    <td class="cc">5419451</td>
+                    <td class="cc">270</td>
+                    <td class="cc">49.82</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">11</td>
+                    <td>Sint Maarten</td>
+                    <td class="cc">43847</td>
+                    <td class="cc">2</td>
+                    <td class="cc">45.61</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">12</td>
+                    <td>Malta</td>
+                    <td class="cc">553214</td>
+                    <td class="cc">20</td>
+                    <td class="cc">36.15</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">13</td>
+                    <td>Portugal</td>
+                    <td class="cc">10347892</td>
+                    <td class="cc">348</td>
+                    <td class="cc">33.63</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">14</td>
+                    <td>Slovenia</td>
+                    <td class="cc">2066880</td>
+                    <td class="cc">66</td>
+                    <td class="cc">31.93</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">15</td>
+                    <td>San Marino</td>
+                    <td class="cc">33600</td>
+                    <td class="cc">1</td>
+                    <td class="cc">29.76</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">16</td>
+                    <td>Bulgaria</td>
+                    <td class="cc">6437360</td>
+                    <td class="cc">180</td>
+                    <td class="cc">27.96</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">17</td>
+                    <td>Kingdom of the Netherlands</td>
+                    <td class="cc">17100715</td>
+                    <td class="cc">464</td>
+                    <td class="cc">27.13</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">18</td>
+                    <td>Monaco</td>
+                    <td class="cc">38423</td>
+                    <td class="cc">1</td>
+                    <td class="cc">26.03</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">19</td>
+                    <td>South Africa</td>
+                    <td class="cc">62027503</td>
+                    <td class="cc">1331</td>
+                    <td class="cc">21.46</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">20</td>
+                    <td>Austria</td>
+                    <td class="cc">8979894</td>
+                    <td class="cc">185</td>
+                    <td class="cc">20.6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">21</td>
+                    <td>Aruba</td>
+                    <td class="cc">106739</td>
+                    <td class="cc">2</td>
+                    <td class="cc">18.74</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">22</td>
+                    <td>Italy</td>
+                    <td class="cc">58850717</td>
+                    <td class="cc">1083</td>
+                    <td class="cc">18.4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">23</td>
+                    <td>New Zealand</td>
+                    <td class="cc">5118700</td>
+                    <td class="cc">87</td>
+                    <td class="cc">17.0</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">24</td>
+                    <td>Iceland</td>
+                    <td class="cc">364260</td>
+                    <td class="cc">6</td>
+                    <td class="cc">16.47</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">25</td>
+                    <td>Guatemala</td>
+                    <td class="cc">17263239</td>
+                    <td class="cc">284</td>
+                    <td class="cc">16.45</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">26</td>
+                    <td>Canada</td>
+                    <td class="cc">36991981</td>
+                    <td class="cc">585</td>
+                    <td class="cc">15.81</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">27</td>
+                    <td>Dominican Republic</td>
+                    <td class="cc">10760028</td>
+                    <td class="cc">134</td>
+                    <td class="cc">12.45</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">28</td>
+                    <td>United States</td>
+                    <td class="cc">340110988</td>
+                    <td class="cc">4071</td>
+                    <td class="cc">11.97</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">29</td>
+                    <td>Montenegro</td>
+                    <td class="cc">617213</td>
+                    <td class="cc">7</td>
+                    <td class="cc">11.34</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">30</td>
+                    <td>Cyprus</td>
+                    <td class="cc">1344976</td>
+                    <td class="cc">15</td>
+                    <td class="cc">11.15</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">31</td>
+                    <td>Brazil</td>
+                    <td class="cc">213421037</td>
+                    <td class="cc">2250</td>
+                    <td class="cc">10.54</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">32</td>
+                    <td>São Tomé and Príncipe</td>
+                    <td class="cc">204327</td>
+                    <td class="cc">2</td>
+                    <td class="cc">9.79</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">33</td>
+                    <td>Zambia</td>
+                    <td class="cc">19610769</td>
+                    <td class="cc">172</td>
+                    <td class="cc">8.77</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">34</td>
+                    <td>Spain</td>
+                    <td class="cc">48592909</td>
+                    <td class="cc">424</td>
+                    <td class="cc">8.73</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">35</td>
+                    <td>Honduras</td>
+                    <td class="cc">8303771</td>
+                    <td class="cc">69</td>
+                    <td class="cc">8.31</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">36</td>
+                    <td>Paraguay</td>
+                    <td class="cc">6811297</td>
+                    <td class="cc">53</td>
+                    <td class="cc">7.78</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">37</td>
+                    <td>Poland</td>
+                    <td class="cc">37563071</td>
+                    <td class="cc">288</td>
+                    <td class="cc">7.67</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">38</td>
+                    <td>Germany</td>
+                    <td class="cc">83577140</td>
+                    <td class="cc">620</td>
+                    <td class="cc">7.42</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">39</td>
+                    <td>Australia</td>
+                    <td class="cc">27309396</td>
+                    <td class="cc">201</td>
+                    <td class="cc">7.36</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">40</td>
+                    <td>Luxembourg</td>
+                    <td class="cc">681987</td>
+                    <td class="cc">5</td>
+                    <td class="cc">7.33</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">41</td>
+                    <td>Croatia</td>
+                    <td class="cc">3871833</td>
+                    <td class="cc">28</td>
+                    <td class="cc">7.23</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">42</td>
+                    <td>Cape Verde</td>
+                    <td class="cc">555988</td>
+                    <td class="cc">4</td>
+                    <td class="cc">7.19</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">43</td>
+                    <td>Maldives</td>
+                    <td class="cc">436330</td>
+                    <td class="cc">3</td>
+                    <td class="cc">6.88</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">44</td>
+                    <td>Vanuatu</td>
+                    <td class="cc">300019</td>
+                    <td class="cc">2</td>
+                    <td class="cc">6.67</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">45</td>
+                    <td>Thailand</td>
+                    <td class="cc">66188503</td>
+                    <td class="cc">433</td>
+                    <td class="cc">6.54</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">46</td>
+                    <td>Panama</td>
+                    <td class="cc">4570133</td>
+                    <td class="cc">28</td>
+                    <td class="cc">6.13</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">47</td>
+                    <td>Thailand</td>
+                    <td class="cc">66188503</td>
+                    <td class="cc">397</td>
+                    <td class="cc">6.0</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">48</td>
+                    <td>Bolivia</td>
+                    <td class="cc">12244159</td>
+                    <td class="cc">73</td>
+                    <td class="cc">5.96</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">49</td>
+                    <td>Norway</td>
+                    <td class="cc">5594340</td>
+                    <td class="cc">33</td>
+                    <td class="cc">5.9</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">50</td>
+                    <td>Finland</td>
+                    <td class="cc">5608218</td>
+                    <td class="cc">31</td>
+                    <td class="cc">5.53</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">51</td>
+                    <td>Armenia</td>
+                    <td class="cc">2930450</td>
+                    <td class="cc">16</td>
+                    <td class="cc">5.46</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">52</td>
+                    <td>Ireland</td>
+                    <td class="cc">5149139</td>
+                    <td class="cc">28</td>
+                    <td class="cc">5.44</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">53</td>
+                    <td>Argentina</td>
+                    <td class="cc">47327407</td>
+                    <td class="cc">249</td>
+                    <td class="cc">5.26</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">54</td>
+                    <td>United Kingdom</td>
+                    <td class="cc">67326569</td>
+                    <td class="cc">353</td>
+                    <td class="cc">5.24</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">55</td>
+                    <td>France</td>
+                    <td class="cc">68605616</td>
+                    <td class="cc">358</td>
+                    <td class="cc">5.22</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">56</td>
+                    <td>Belgium</td>
+                    <td class="cc">11825551</td>
+                    <td class="cc">59</td>
+                    <td class="cc">4.99</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">57</td>
+                    <td>Belize</td>
+                    <td class="cc">411106</td>
+                    <td class="cc">2</td>
+                    <td class="cc">4.86</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">58</td>
+                    <td>Mexico</td>
+                    <td class="cc">124777324</td>
+                    <td class="cc">566</td>
+                    <td class="cc">4.54</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">59</td>
+                    <td>Greece</td>
+                    <td class="cc">10482487</td>
+                    <td class="cc">47</td>
+                    <td class="cc">4.48</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">60</td>
+                    <td>Cuba</td>
+                    <td class="cc">10985974</td>
+                    <td class="cc">46</td>
+                    <td class="cc">4.19</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">61</td>
+                    <td>Romania</td>
+                    <td class="cc">19053815</td>
+                    <td class="cc">72</td>
+                    <td class="cc">3.78</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">62</td>
+                    <td>Latvia</td>
+                    <td class="cc">1856932</td>
+                    <td class="cc">7</td>
+                    <td class="cc">3.77</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">63</td>
+                    <td>Uruguay</td>
+                    <td class="cc">3444263</td>
+                    <td class="cc">12</td>
+                    <td class="cc">3.48</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">64</td>
+                    <td>Hungary</td>
+                    <td class="cc">9603634</td>
+                    <td class="cc">33</td>
+                    <td class="cc">3.44</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">65</td>
+                    <td>Laos</td>
+                    <td class="cc">6858160</td>
+                    <td class="cc">23</td>
+                    <td class="cc">3.35</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">66</td>
+                    <td>Mauritius</td>
+                    <td class="cc">1264613</td>
+                    <td class="cc">4</td>
+                    <td class="cc">3.16</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">67</td>
+                    <td>Namibia</td>
+                    <td class="cc">2533794</td>
+                    <td class="cc">8</td>
+                    <td class="cc">3.16</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">68</td>
+                    <td>Lebanon</td>
+                    <td class="cc">6100075</td>
+                    <td class="cc">18</td>
+                    <td class="cc">2.95</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">69</td>
+                    <td>Trinidad and Tobago</td>
+                    <td class="cc">1369125</td>
+                    <td class="cc">4</td>
+                    <td class="cc">2.92</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">70</td>
+                    <td>Kenya</td>
+                    <td class="cc">48468138</td>
+                    <td class="cc">124</td>
+                    <td class="cc">2.56</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">71</td>
+                    <td>Nicaragua</td>
+                    <td class="cc">5142098</td>
+                    <td class="cc">13</td>
+                    <td class="cc">2.53</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">72</td>
+                    <td>Lithuania</td>
+                    <td class="cc">2860002</td>
+                    <td class="cc">7</td>
+                    <td class="cc">2.45</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">73</td>
+                    <td>Bosnia and Herzegovina</td>
+                    <td class="cc">3816459</td>
+                    <td class="cc">9</td>
+                    <td class="cc">2.36</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">74</td>
+                    <td>North Macedonia</td>
+                    <td class="cc">1836713</td>
+                    <td class="cc">4</td>
+                    <td class="cc">2.18</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">75</td>
+                    <td>Venezuela</td>
+                    <td class="cc">31250306</td>
+                    <td class="cc">66</td>
+                    <td class="cc">2.11</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">76</td>
+                    <td>Sweden</td>
+                    <td class="cc">10609460</td>
+                    <td class="cc">22</td>
+                    <td class="cc">2.07</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">77</td>
+                    <td>Colombia</td>
+                    <td class="cc">52321152</td>
+                    <td class="cc">94</td>
+                    <td class="cc">1.8</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">78</td>
+                    <td>Peru</td>
+                    <td class="cc">33726000</td>
+                    <td class="cc">60</td>
+                    <td class="cc">1.78</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">79</td>
+                    <td>Denmark</td>
+                    <td class="cc">5822863</td>
+                    <td class="cc">10</td>
+                    <td class="cc">1.72</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">80</td>
+                    <td>Botswana</td>
+                    <td class="cc">2480244</td>
+                    <td class="cc">4</td>
+                    <td class="cc">1.61</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">81</td>
+                    <td>Singapore</td>
+                    <td class="cc">5866139</td>
+                    <td class="cc">9</td>
+                    <td class="cc">1.53</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">82</td>
+                    <td>Philippines</td>
+                    <td class="cc">112729484</td>
+                    <td class="cc">170</td>
+                    <td class="cc">1.51</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">83</td>
+                    <td>South Korea</td>
+                    <td class="cc">51466201</td>
+                    <td class="cc">76</td>
+                    <td class="cc">1.48</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">84</td>
+                    <td>Guyana</td>
+                    <td class="cc">777859</td>
+                    <td class="cc">1</td>
+                    <td class="cc">1.29</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">85</td>
+                    <td>Bhutan</td>
+                    <td class="cc">787424</td>
+                    <td class="cc">1</td>
+                    <td class="cc">1.27</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">86</td>
+                    <td>Israel</td>
+                    <td class="cc">9840000</td>
+                    <td class="cc">12</td>
+                    <td class="cc">1.22</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">87</td>
+                    <td>Jamaica</td>
+                    <td class="cc">2697983</td>
+                    <td class="cc">3</td>
+                    <td class="cc">1.11</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">88</td>
+                    <td>Ecuador</td>
+                    <td class="cc">16938986</td>
+                    <td class="cc">18</td>
+                    <td class="cc">1.06</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">89</td>
+                    <td>United Arab Emirates</td>
+                    <td class="cc">9890400</td>
+                    <td class="cc">10</td>
+                    <td class="cc">1.01</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">90</td>
+                    <td>Chile</td>
+                    <td class="cc">19458000</td>
+                    <td class="cc">19</td>
+                    <td class="cc">0.98</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">91</td>
+                    <td>Mozambique</td>
+                    <td class="cc">29668834</td>
+                    <td class="cc">23</td>
+                    <td class="cc">0.78</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">92</td>
+                    <td>Serbia</td>
+                    <td class="cc">6605168</td>
+                    <td class="cc">5</td>
+                    <td class="cc">0.76</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">93</td>
+                    <td>Tanzania</td>
+                    <td class="cc">57310019</td>
+                    <td class="cc">43</td>
+                    <td class="cc">0.75</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">94</td>
+                    <td>Estonia</td>
+                    <td class="cc">1369995</td>
+                    <td class="cc">1</td>
+                    <td class="cc">0.73</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">95</td>
+                    <td>Albania</td>
+                    <td class="cc">2811655</td>
+                    <td class="cc">2</td>
+                    <td class="cc">0.71</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">96</td>
+                    <td>Ghana</td>
+                    <td class="cc">32833031</td>
+                    <td class="cc">23</td>
+                    <td class="cc">0.7</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">97</td>
+                    <td>Malaysia</td>
+                    <td class="cc">32447385</td>
+                    <td class="cc">22</td>
+                    <td class="cc">0.68</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">98</td>
+                    <td>Kosovo</td>
+                    <td class="cc">1586659</td>
+                    <td class="cc">1</td>
+                    <td class="cc">0.63</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">99</td>
+                    <td>Serbia</td>
+                    <td class="cc">6605168</td>
+                    <td class="cc">4</td>
+                    <td class="cc">0.61</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">100</td>
+                    <td>Mongolia</td>
+                    <td class="cc">3409939</td>
+                    <td class="cc">2</td>
+                    <td class="cc">0.59</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">101</td>
+                    <td>Burundi</td>
+                    <td class="cc">13689450</td>
+                    <td class="cc">7</td>
+                    <td class="cc">0.51</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">102</td>
+                    <td>Lesotho</td>
+                    <td class="cc">2007201</td>
+                    <td class="cc">1</td>
+                    <td class="cc">0.5</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">103</td>
+                    <td>Turkey</td>
+                    <td class="cc">85372377</td>
+                    <td class="cc">43</td>
+                    <td class="cc">0.5</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">104</td>
+                    <td>Gabon</td>
+                    <td class="cc">2025137</td>
+                    <td class="cc">1</td>
+                    <td class="cc">0.49</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">105</td>
+                    <td>Uganda</td>
+                    <td class="cc">47123531</td>
+                    <td class="cc">23</td>
+                    <td class="cc">0.49</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">106</td>
+                    <td>Ukraine</td>
+                    <td class="cc">41167335</td>
+                    <td class="cc">20</td>
+                    <td class="cc">0.49</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">107</td>
+                    <td>Japan</td>
+                    <td class="cc">123802000</td>
+                    <td class="cc">59</td>
+                    <td class="cc">0.48</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">108</td>
+                    <td>Senegal</td>
+                    <td class="cc">16876720</td>
+                    <td class="cc">8</td>
+                    <td class="cc">0.47</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">109</td>
+                    <td>Taiwan</td>
+                    <td class="cc">23317031</td>
+                    <td class="cc">10</td>
+                    <td class="cc">0.43</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">110</td>
+                    <td>The Gambia</td>
+                    <td class="cc">2639916</td>
+                    <td class="cc">1</td>
+                    <td class="cc">0.38</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">111</td>
+                    <td>Iran</td>
+                    <td class="cc">92417700</td>
+                    <td class="cc">30</td>
+                    <td class="cc">0.32</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">112</td>
+                    <td>Ivory Coast</td>
+                    <td class="cc">31165654</td>
+                    <td class="cc">9</td>
+                    <td class="cc">0.29</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">113</td>
+                    <td>Jordan</td>
+                    <td class="cc">10428241</td>
+                    <td class="cc">3</td>
+                    <td class="cc">0.29</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">114</td>
+                    <td>Kyrgyzstan</td>
+                    <td class="cc">7281800</td>
+                    <td class="cc">2</td>
+                    <td class="cc">0.27</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">115</td>
+                    <td>Sri Lanka</td>
+                    <td class="cc">21444000</td>
+                    <td class="cc">5</td>
+                    <td class="cc">0.23</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">116</td>
+                    <td>Vietnam</td>
+                    <td class="cc">96208984</td>
+                    <td class="cc">19</td>
+                    <td class="cc">0.2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">117</td>
+                    <td>Zimbabwe</td>
+                    <td class="cc">15178979</td>
+                    <td class="cc">3</td>
+                    <td class="cc">0.2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">118</td>
+                    <td>Central African Republic</td>
+                    <td class="cc">5152421</td>
+                    <td class="cc">1</td>
+                    <td class="cc">0.19</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">119</td>
+                    <td>Cambodia</td>
+                    <td class="cc">17423880</td>
+                    <td class="cc">3</td>
+                    <td class="cc">0.17</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">120</td>
+                    <td>Madagascar</td>
+                    <td class="cc">31964956</td>
+                    <td class="cc">5</td>
+                    <td class="cc">0.16</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">121</td>
+                    <td>Nigeria</td>
+                    <td class="cc">211400708</td>
+                    <td class="cc">31</td>
+                    <td class="cc">0.15</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">122</td>
+                    <td>Indonesia</td>
+                    <td class="cc">275439000</td>
+                    <td class="cc">38</td>
+                    <td class="cc">0.14</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">123</td>
+                    <td>Belarus</td>
+                    <td class="cc">9109280</td>
+                    <td class="cc">1</td>
+                    <td class="cc">0.11</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">124</td>
+                    <td>Morocco</td>
+                    <td class="cc">36828330</td>
+                    <td class="cc">3</td>
+                    <td class="cc">0.08</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">125</td>
+                    <td>Benin</td>
+                    <td class="cc">14111034</td>
+                    <td class="cc">1</td>
+                    <td class="cc">0.07</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">126</td>
+                    <td>Russia</td>
+                    <td class="cc">146119928</td>
+                    <td class="cc">6</td>
+                    <td class="cc">0.04</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">127</td>
+                    <td>Algeria</td>
+                    <td class="cc">46164219</td>
+                    <td class="cc">2</td>
+                    <td class="cc">0.04</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">128</td>
+                    <td>India</td>
+                    <td class="cc">1477519529</td>
+                    <td class="cc">38</td>
+                    <td class="cc">0.03</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">129</td>
+                    <td>Angola</td>
+                    <td class="cc">36749906</td>
+                    <td class="cc">1</td>
+                    <td class="cc">0.03</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">130</td>
+                    <td>Saudi Arabia</td>
+                    <td class="cc">33000000</td>
+                    <td class="cc">1</td>
+                    <td class="cc">0.03</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">131</td>
+                    <td>Ethiopia</td>
+                    <td class="cc">128691692</td>
+                    <td class="cc">2</td>
+                    <td class="cc">0.02</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">132</td>
+                    <td>Egypt</td>
+                    <td class="cc">114535772</td>
+                    <td class="cc">2</td>
+                    <td class="cc">0.02</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">133</td>
+                    <td>Democratic Republic of the Congo</td>
+                    <td class="cc">105789731</td>
+                    <td class="cc">2</td>
+                    <td class="cc">0.02</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">134</td>
+                    <td>Myanmar</td>
+                    <td class="cc">53370609</td>
+                    <td class="cc">1</td>
+                    <td class="cc">0.02</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">135</td>
+                    <td>Pakistan</td>
+                    <td class="cc">223773700</td>
+                    <td class="cc">2</td>
+                    <td class="cc">0.01</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">136</td>
+                    <td>People&#39;s Republic of China</td>
+                    <td class="cc">1442965000</td>
+                    <td class="cc">12</td>
+                    <td class="cc">0.01</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">137</td>
+                    <td>Bangladesh</td>
+                    <td class="cc">171466990</td>
+                    <td class="cc">1</td>
+                    <td class="cc">0.01</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        <h2>Bitcoin shop types</h2>
+
+        
+        <h3>Worldwide</h3>
+        <table id="table-shoptypes-worldwide" class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="cc">Rank</th>
+                    <th>Shop type</th>
+                    <th class="cc">Number of Bitcoin shops</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td class="cc">1</td>
+                    <td>n/a</td>
+                    <td class="cc">4765</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">2</td>
+                    <td>restaurant</td>
+                    <td class="cc">2528</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">3</td>
+                    <td>atm</td>
+                    <td class="cc">1733</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">4</td>
+                    <td>cafe</td>
+                    <td class="cc">1219</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">5</td>
+                    <td>fast_food</td>
+                    <td class="cc">870</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">6</td>
+                    <td>supermarket</td>
+                    <td class="cc">746</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">7</td>
+                    <td>hairdresser</td>
+                    <td class="cc">682</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">8</td>
+                    <td>convenience</td>
+                    <td class="cc">486</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">9</td>
+                    <td>clothes</td>
+                    <td class="cc">430</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">10</td>
+                    <td>department_store</td>
+                    <td class="cc">364</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">11</td>
+                    <td>bar</td>
+                    <td class="cc">347</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">12</td>
+                    <td>car_repair</td>
+                    <td class="cc">254</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">13</td>
+                    <td>beauty</td>
+                    <td class="cc">251</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">14</td>
+                    <td>bureau_de_change</td>
+                    <td class="cc">231</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">15</td>
+                    <td>fuel</td>
+                    <td class="cc">223</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">16</td>
+                    <td>pub</td>
+                    <td class="cc">214</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">17</td>
+                    <td>jewelry</td>
+                    <td class="cc">190</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">18</td>
+                    <td>dentist</td>
+                    <td class="cc">181</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">19</td>
+                    <td>computer</td>
+                    <td class="cc">164</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">20</td>
+                    <td>ice_cream</td>
+                    <td class="cc">163</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">21</td>
+                    <td>electronics</td>
+                    <td class="cc">157</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">22</td>
+                    <td>farm</td>
+                    <td class="cc">154</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">23</td>
+                    <td>alcohol</td>
+                    <td class="cc">150</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">24</td>
+                    <td>bakery</td>
+                    <td class="cc">146</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">25</td>
+                    <td>tattoo</td>
+                    <td class="cc">136</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">26</td>
+                    <td>doctors</td>
+                    <td class="cc">128</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">27</td>
+                    <td>massage</td>
+                    <td class="cc">118</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">28</td>
+                    <td>mobile_phone</td>
+                    <td class="cc">106</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">29</td>
+                    <td>furniture</td>
+                    <td class="cc">101</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">30</td>
+                    <td>pharmacy</td>
+                    <td class="cc">99</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">31</td>
+                    <td>gift</td>
+                    <td class="cc">91</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">32</td>
+                    <td>clinic</td>
+                    <td class="cc">87</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">33</td>
+                    <td>copyshop</td>
+                    <td class="cc">74</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">34</td>
+                    <td>butcher</td>
+                    <td class="cc">73</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">35</td>
+                    <td>shoes</td>
+                    <td class="cc">72</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">36</td>
+                    <td>travel_agency</td>
+                    <td class="cc">70</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">37</td>
+                    <td>marketplace</td>
+                    <td class="cc">69</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">38</td>
+                    <td>car</td>
+                    <td class="cc">66</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">39</td>
+                    <td>hardware</td>
+                    <td class="cc">64</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">40</td>
+                    <td>bicycle</td>
+                    <td class="cc">62</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">41</td>
+                    <td>car_parts</td>
+                    <td class="cc">62</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">42</td>
+                    <td>florist</td>
+                    <td class="cc">62</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">43</td>
+                    <td>car_wash</td>
+                    <td class="cc">58</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">44</td>
+                    <td>sports</td>
+                    <td class="cc">58</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">45</td>
+                    <td>optician</td>
+                    <td class="cc">57</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">46</td>
+                    <td>wine</td>
+                    <td class="cc">55</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">47</td>
+                    <td>books</td>
+                    <td class="cc">53</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">48</td>
+                    <td>general</td>
+                    <td class="cc">53</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">49</td>
+                    <td>taxi</td>
+                    <td class="cc">52</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">50</td>
+                    <td>cannabis</td>
+                    <td class="cc">51</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">51</td>
+                    <td>car_rental</td>
+                    <td class="cc">51</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">52</td>
+                    <td>bank</td>
+                    <td class="cc">49</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">53</td>
+                    <td>tobacco</td>
+                    <td class="cc">49</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">54</td>
+                    <td>health_food</td>
+                    <td class="cc">48</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">55</td>
+                    <td>craft</td>
+                    <td class="cc">47</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">56</td>
+                    <td>studio</td>
+                    <td class="cc">46</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">57</td>
+                    <td>art</td>
+                    <td class="cc">45</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">58</td>
+                    <td>repair</td>
+                    <td class="cc">45</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">59</td>
+                    <td>greengrocer</td>
+                    <td class="cc">44</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">60</td>
+                    <td>kiosk</td>
+                    <td class="cc">44</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">61</td>
+                    <td>variety_store</td>
+                    <td class="cc">43</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">62</td>
+                    <td>veterinary</td>
+                    <td class="cc">43</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">63</td>
+                    <td>collector</td>
+                    <td class="cc">41</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">64</td>
+                    <td>beverages</td>
+                    <td class="cc">40</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">65</td>
+                    <td>deli</td>
+                    <td class="cc">40</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">66</td>
+                    <td>e-cigarette</td>
+                    <td class="cc">40</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">67</td>
+                    <td>pet</td>
+                    <td class="cc">40</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">68</td>
+                    <td>garden_centre</td>
+                    <td class="cc">39</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">69</td>
+                    <td>coffee</td>
+                    <td class="cc">37</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">70</td>
+                    <td>cosmetics</td>
+                    <td class="cc">36</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">71</td>
+                    <td>tyres</td>
+                    <td class="cc">36</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">72</td>
+                    <td>community_centre</td>
+                    <td class="cc">35</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">73</td>
+                    <td>pastry</td>
+                    <td class="cc">34</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">74</td>
+                    <td>events_venue</td>
+                    <td class="cc">33</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">75</td>
+                    <td>chocolate</td>
+                    <td class="cc">31</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">76</td>
+                    <td>nutrition_supplements</td>
+                    <td class="cc">31</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">77</td>
+                    <td>payment_terminal</td>
+                    <td class="cc">30</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">78</td>
+                    <td>laundry</td>
+                    <td class="cc">29</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">79</td>
+                    <td>toys</td>
+                    <td class="cc">29</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">80</td>
+                    <td>boat_rental</td>
+                    <td class="cc">28</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">81</td>
+                    <td>language_school</td>
+                    <td class="cc">28</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">82</td>
+                    <td>motorcycle</td>
+                    <td class="cc">26</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">83</td>
+                    <td>tailor</td>
+                    <td class="cc">26</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">84</td>
+                    <td>trade</td>
+                    <td class="cc">26</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">85</td>
+                    <td>hospital</td>
+                    <td class="cc">25</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">86</td>
+                    <td>stationery</td>
+                    <td class="cc">25</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">87</td>
+                    <td>dojo</td>
+                    <td class="cc">24</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">88</td>
+                    <td>confectionery</td>
+                    <td class="cc">23</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">89</td>
+                    <td>pet_grooming</td>
+                    <td class="cc">23</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">90</td>
+                    <td>bed</td>
+                    <td class="cc">22</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">91</td>
+                    <td>herbalist</td>
+                    <td class="cc">22</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">92</td>
+                    <td>fashion_accessories</td>
+                    <td class="cc">21</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">93</td>
+                    <td>school</td>
+                    <td class="cc">21</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">94</td>
+                    <td>seafood</td>
+                    <td class="cc">21</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">95</td>
+                    <td>second_hand</td>
+                    <td class="cc">21</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">96</td>
+                    <td>interior_decoration</td>
+                    <td class="cc">20</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">97</td>
+                    <td>video_games</td>
+                    <td class="cc">20</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">98</td>
+                    <td>games</td>
+                    <td class="cc">19</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">99</td>
+                    <td>honey</td>
+                    <td class="cc">19</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">100</td>
+                    <td>internet_cafe</td>
+                    <td class="cc">19</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">101</td>
+                    <td>driving_school</td>
+                    <td class="cc">18</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">102</td>
+                    <td>music_school</td>
+                    <td class="cc">18</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">103</td>
+                    <td>antiques</td>
+                    <td class="cc">17</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">104</td>
+                    <td>cinema</td>
+                    <td class="cc">17</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">105</td>
+                    <td>motorcycle_rental</td>
+                    <td class="cc">17</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">106</td>
+                    <td>perfumery</td>
+                    <td class="cc">17</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">107</td>
+                    <td>electrical</td>
+                    <td class="cc">15</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">108</td>
+                    <td>food</td>
+                    <td class="cc">15</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">109</td>
+                    <td>musical_instrument</td>
+                    <td class="cc">15</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">110</td>
+                    <td>nightclub</td>
+                    <td class="cc">15</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">111</td>
+                    <td>appliance</td>
+                    <td class="cc">14</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">112</td>
+                    <td>chemist</td>
+                    <td class="cc">14</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">113</td>
+                    <td>grocery</td>
+                    <td class="cc">14</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">114</td>
+                    <td>locksmith</td>
+                    <td class="cc">14</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">115</td>
+                    <td>dairy</td>
+                    <td class="cc">13</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">116</td>
+                    <td>motorcycle_repair</td>
+                    <td class="cc">13</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">117</td>
+                    <td>tea</td>
+                    <td class="cc">13</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">118</td>
+                    <td>water</td>
+                    <td class="cc">13</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">119</td>
+                    <td>water_sports</td>
+                    <td class="cc">13</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">120</td>
+                    <td>wholesale</td>
+                    <td class="cc">13</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">121</td>
+                    <td>newsagent</td>
+                    <td class="cc">12</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">122</td>
+                    <td>place_of_worship</td>
+                    <td class="cc">12</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">123</td>
+                    <td>rental</td>
+                    <td class="cc">12</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">124</td>
+                    <td>swimming_pool</td>
+                    <td class="cc">12</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">125</td>
+                    <td>telecommunication</td>
+                    <td class="cc">12</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">126</td>
+                    <td>medical_supply</td>
+                    <td class="cc">11</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">127</td>
+                    <td>outpost</td>
+                    <td class="cc">11</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">128</td>
+                    <td>surf_school</td>
+                    <td class="cc">11</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">129</td>
+                    <td>weapons</td>
+                    <td class="cc">11</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">130</td>
+                    <td>animal_boarding</td>
+                    <td class="cc">10</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">131</td>
+                    <td>bicycle_rental</td>
+                    <td class="cc">10</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">132</td>
+                    <td>cheese</td>
+                    <td class="cc">10</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">133</td>
+                    <td>doityourself</td>
+                    <td class="cc">10</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">134</td>
+                    <td>fabric</td>
+                    <td class="cc">10</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">135</td>
+                    <td>leather</td>
+                    <td class="cc">10</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">136</td>
+                    <td>money_transfer</td>
+                    <td class="cc">10</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">137</td>
+                    <td>paint</td>
+                    <td class="cc">10</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">138</td>
+                    <td>photo</td>
+                    <td class="cc">10</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">139</td>
+                    <td>arts_centre</td>
+                    <td class="cc">9</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">140</td>
+                    <td>hifi</td>
+                    <td class="cc">9</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">141</td>
+                    <td>houseware</td>
+                    <td class="cc">9</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">142</td>
+                    <td>music</td>
+                    <td class="cc">9</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">143</td>
+                    <td>printing</td>
+                    <td class="cc">9</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">144</td>
+                    <td>tool_hire</td>
+                    <td class="cc">9</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">145</td>
+                    <td>watches</td>
+                    <td class="cc">9</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">146</td>
+                    <td>childcare</td>
+                    <td class="cc">8</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">147</td>
+                    <td>dancing_school</td>
+                    <td class="cc">8</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">148</td>
+                    <td>frame</td>
+                    <td class="cc">8</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">149</td>
+                    <td>funeral_directors</td>
+                    <td class="cc">8</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">150</td>
+                    <td>prep_school</td>
+                    <td class="cc">8</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">151</td>
+                    <td>printer_ink</td>
+                    <td class="cc">8</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">152</td>
+                    <td>pottery</td>
+                    <td class="cc">7</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">153</td>
+                    <td>scuba_diving</td>
+                    <td class="cc">7</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">154</td>
+                    <td>social_facility</td>
+                    <td class="cc">7</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">155</td>
+                    <td>spices</td>
+                    <td class="cc">7</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">156</td>
+                    <td>agrarian</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">157</td>
+                    <td>bag</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">158</td>
+                    <td>biergarten</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">159</td>
+                    <td>college</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">160</td>
+                    <td>dry_cleaning</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">161</td>
+                    <td>fishing</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">162</td>
+                    <td>hookah_lounge</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">163</td>
+                    <td>kitchen</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">164</td>
+                    <td>mall</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">165</td>
+                    <td>outdoor</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">166</td>
+                    <td>party</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">167</td>
+                    <td>pawnbroker</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">168</td>
+                    <td>theatre</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">169</td>
+                    <td>vending_machine</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">170</td>
+                    <td>water_filter</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">171</td>
+                    <td>window_blind</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">172</td>
+                    <td>caravan</td>
+                    <td class="cc">5</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">173</td>
+                    <td>carpet</td>
+                    <td class="cc">5</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">174</td>
+                    <td>coworking_space</td>
+                    <td class="cc">5</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">175</td>
+                    <td>food_court</td>
+                    <td class="cc">5</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">176</td>
+                    <td>gas</td>
+                    <td class="cc">5</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">177</td>
+                    <td>groundskeeping</td>
+                    <td class="cc">5</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">178</td>
+                    <td>other</td>
+                    <td class="cc">5</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">179</td>
+                    <td>parking</td>
+                    <td class="cc">5</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">180</td>
+                    <td>storage_rental</td>
+                    <td class="cc">5</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">181</td>
+                    <td>ticket</td>
+                    <td class="cc">5</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">182</td>
+                    <td>animal_shelter</td>
+                    <td class="cc">4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">183</td>
+                    <td>camera</td>
+                    <td class="cc">4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">184</td>
+                    <td>candles</td>
+                    <td class="cc">4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">185</td>
+                    <td>catalogue</td>
+                    <td class="cc">4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">186</td>
+                    <td>dive_centre</td>
+                    <td class="cc">4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">187</td>
+                    <td>gold_buyer</td>
+                    <td class="cc">4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">188</td>
+                    <td>golf</td>
+                    <td class="cc">4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">189</td>
+                    <td>kindergarten</td>
+                    <td class="cc">4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">190</td>
+                    <td>lighting</td>
+                    <td class="cc">4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">191</td>
+                    <td>mobile_phone_accessories</td>
+                    <td class="cc">4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">192</td>
+                    <td>pasta</td>
+                    <td class="cc">4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">193</td>
+                    <td>payment_centre</td>
+                    <td class="cc">4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">194</td>
+                    <td>surf</td>
+                    <td class="cc">4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">195</td>
+                    <td>training</td>
+                    <td class="cc">4</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">196</td>
+                    <td>3d_printing</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">197</td>
+                    <td>baby_goods</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">198</td>
+                    <td>boat</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">199</td>
+                    <td>bus_station</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">200</td>
+                    <td>casino</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">201</td>
+                    <td>country_store</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">202</td>
+                    <td>curtain</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">203</td>
+                    <td>erotic</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">204</td>
+                    <td>flight_school</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">205</td>
+                    <td>flooring</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">206</td>
+                    <td>model</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">207</td>
+                    <td>post_office</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">208</td>
+                    <td>psychic</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">209</td>
+                    <td>radiotechnics</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">210</td>
+                    <td>recycling</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">211</td>
+                    <td>religion</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">212</td>
+                    <td>skate</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">213</td>
+                    <td>street_vendor</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">214</td>
+                    <td>university</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">215</td>
+                    <td>animal_breeding</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">216</td>
+                    <td>anime</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">217</td>
+                    <td>bathroom_furnishing</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">218</td>
+                    <td>charging_station</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">219</td>
+                    <td>cleaning_supplies</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">220</td>
+                    <td>doors</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">221</td>
+                    <td>energy</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">222</td>
+                    <td>fireplace</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">223</td>
+                    <td>frozen_food</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">224</td>
+                    <td>hairdresser_supply</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">225</td>
+                    <td>headshop</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">226</td>
+                    <td>household_linen</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">227</td>
+                    <td>karaoke_box</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">228</td>
+                    <td>library</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">229</td>
+                    <td>money_lender</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">230</td>
+                    <td>nuts</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">231</td>
+                    <td>office</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">232</td>
+                    <td>pest_control</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">233</td>
+                    <td>photo_booth</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">234</td>
+                    <td>scooter</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">235</td>
+                    <td>security</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">236</td>
+                    <td>sewing</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">237</td>
+                    <td>shoe_repair</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">238</td>
+                    <td>sport_school</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">239</td>
+                    <td>stripclub</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">240</td>
+                    <td>tiles</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">241</td>
+                    <td>vehicle_inspection</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">242</td>
+                    <td>wigs</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">243</td>
+                    <td>3D_printing_materials</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">244</td>
+                    <td>Accounting</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">245</td>
+                    <td>air_filtration</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">246</td>
+                    <td>animal_training</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">247</td>
+                    <td>apothecary,_shaved_ice</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">248</td>
+                    <td>backup_seguro_e_resistente_para_criptomoedas.</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">249</td>
+                    <td>balloon</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">250</td>
+                    <td>beekeeper</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">251</td>
+                    <td>bicycle_repair_station</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">252</td>
+                    <td>bitcoin</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">253</td>
+                    <td>bitcoin_community_house</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">254</td>
+                    <td>boat_repair;car_repair</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">255</td>
+                    <td>books, plush, figures</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">256</td>
+                    <td>building_materials</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">257</td>
+                    <td>bureau_de_change;gold</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">258</td>
+                    <td>business_headquarters</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">259</td>
+                    <td>cafe;motorcycle_rental</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">260</td>
+                    <td>car_pooling</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">261</td>
+                    <td>car_service</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">262</td>
+                    <td>cartridges</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">263</td>
+                    <td>ceramics</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">264</td>
+                    <td>christmas</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">265</td>
+                    <td>cleaning</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">266</td>
+                    <td>clothes,_gifts,_art</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">267</td>
+                    <td>clothes;second_hand</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">268</td>
+                    <td>coach</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">269</td>
+                    <td>collectibles</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">270</td>
+                    <td>computer;mobile_phone</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">271</td>
+                    <td>concept store</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">272</td>
+                    <td>crystal</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">273</td>
+                    <td>dessert</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">274</td>
+                    <td>discount</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">275</td>
+                    <td>drinking_water</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">276</td>
+                    <td>drone_spares_sales_service</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">277</td>
+                    <td>duty_free</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">278</td>
+                    <td>earrings</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">279</td>
+                    <td>eggs</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">280</td>
+                    <td>electric_scooters</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">281</td>
+                    <td>emas</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">282</td>
+                    <td>embroidery</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">283</td>
+                    <td>equestrian</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">284</td>
+                    <td>equipment_rental</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">285</td>
+                    <td>estate_agent</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">286</td>
+                    <td>exhibition_centre</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">287</td>
+                    <td>fatos_por_medida</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">288</td>
+                    <td>fruit</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">289</td>
+                    <td>garden_furniture</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">290</td>
+                    <td>garden_machinery</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">291</td>
+                    <td>general_trade</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">292</td>
+                    <td>gift;florist</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">293</td>
+                    <td>glass</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">294</td>
+                    <td>growshop</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">295</td>
+                    <td>gun</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">296</td>
+                    <td>hobby</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">297</td>
+                    <td>home_shop</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">298</td>
+                    <td>Hospitality Supplies</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">299</td>
+                    <td>incense</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">300</td>
+                    <td>industrial_supplies</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">301</td>
+                    <td>it</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">302</td>
+                    <td>it_services,_financial_service,_other...</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">303</td>
+                    <td>libreria_bookstore</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">304</td>
+                    <td>loja_de_tênis</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">305</td>
+                    <td>lottery</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">306</td>
+                    <td>motorcycle_parts</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">307</td>
+                    <td>oil</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">308</td>
+                    <td>online_shop</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">309</td>
+                    <td>onlineshop</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">310</td>
+                    <td>papeleria,_libreria,_expendeduria</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">311</td>
+                    <td>photocopy_and_printing</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">312</td>
+                    <td>physical_bitcion_private_keys</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">313</td>
+                    <td>piercing</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">314</td>
+                    <td>post_depot</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">315</td>
+                    <td>pyrotechnics</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">316</td>
+                    <td>reception_desk</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">317</td>
+                    <td>reparaciónes de moviles y tablet</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">318</td>
+                    <td>retail</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">319</td>
+                    <td>rice</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">320</td>
+                    <td>rooibos_tea_and_specialities</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">321</td>
+                    <td>roupas,_calçados_e_acessorios.</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">322</td>
+                    <td>safety_equipment</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">323</td>
+                    <td>scrap_metal_art</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">324</td>
+                    <td>second_hand_cd_sales</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">325</td>
+                    <td>sharpening_services</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">326</td>
+                    <td>shelter</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">327</td>
+                    <td>shipping</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">328</td>
+                    <td>signs</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">329</td>
+                    <td>ski</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">330</td>
+                    <td>smoking</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">331</td>
+                    <td>snack</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">332</td>
+                    <td>software_company</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">333</td>
+                    <td>Solar energy equipment supplier</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">334</td>
+                    <td>solar_panels</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">335</td>
+                    <td>som_automotivo;som;automotivo</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">336</td>
+                    <td>spa</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">337</td>
+                    <td>sports_center</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">338</td>
+                    <td>stairs</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">339</td>
+                    <td>student_accommodation</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">340</td>
+                    <td>substance_analysis_kits</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">341</td>
+                    <td>surfboards_shaper_and_repair</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">342</td>
+                    <td>therapist</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">343</td>
+                    <td>tools</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">344</td>
+                    <td>trophy</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">345</td>
+                    <td>vacant</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">346</td>
+                    <td>veggie stand</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">347</td>
+                    <td>video</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">348</td>
+                    <td>video;video_games;books;electronics</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">349</td>
+                    <td>Wall Paper</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">350</td>
+                    <td>web_dev_design</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">351</td>
+                    <td>window_tinting</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">352</td>
+                    <td>windows</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">353</td>
+                    <td>wood</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">354</td>
+                    <td>workshop</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">355</td>
+                    <td>www.pontualsublima.com.br/loja</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <h3>France</h3>
+        <table id="table-shoptypes-france" class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="cc">Rank</th>
+                    <th>Shop type</th>
+                    <th class="cc">Number of Bitcoin shops</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td class="cc">1</td>
+                    <td>n/a</td>
+                    <td class="cc">124</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">2</td>
+                    <td>restaurant</td>
+                    <td class="cc">57</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">3</td>
+                    <td>bar</td>
+                    <td class="cc">12</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">4</td>
+                    <td>cafe</td>
+                    <td class="cc">11</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">5</td>
+                    <td>convenience</td>
+                    <td class="cc">11</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">6</td>
+                    <td>fast_food</td>
+                    <td class="cc">10</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">7</td>
+                    <td>doctors</td>
+                    <td class="cc">7</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">8</td>
+                    <td>clothes</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">9</td>
+                    <td>e-cigarette</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">10</td>
+                    <td>florist</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">11</td>
+                    <td>hairdresser</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">12</td>
+                    <td>jewelry</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">13</td>
+                    <td>massage</td>
+                    <td class="cc">6</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">14</td>
+                    <td>tattoo</td>
+                    <td class="cc">5</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">15</td>
+                    <td>alcohol</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">16</td>
+                    <td>butcher</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">17</td>
+                    <td>car_repair</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">18</td>
+                    <td>dentist</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">19</td>
+                    <td>farm</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">20</td>
+                    <td>wine</td>
+                    <td class="cc">3</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">21</td>
+                    <td>atm</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">22</td>
+                    <td>bakery</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">23</td>
+                    <td>books</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">24</td>
+                    <td>bureau_de_change</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">25</td>
+                    <td>cannabis</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">26</td>
+                    <td>car_rental</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">27</td>
+                    <td>computer</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">28</td>
+                    <td>dancing_school</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">29</td>
+                    <td>deli</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">30</td>
+                    <td>events_venue</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">31</td>
+                    <td>hardware</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">32</td>
+                    <td>motorcycle</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">33</td>
+                    <td>photo</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">34</td>
+                    <td>pub</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">35</td>
+                    <td>toys</td>
+                    <td class="cc">2</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">36</td>
+                    <td>3d_printing</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">37</td>
+                    <td>anime</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">38</td>
+                    <td>bag</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">39</td>
+                    <td>beauty</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">40</td>
+                    <td>bicycle_repair_station</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">41</td>
+                    <td>camera</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">42</td>
+                    <td>candles</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">43</td>
+                    <td>car_parts</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">44</td>
+                    <td>coffee</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">45</td>
+                    <td>community_centre</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">46</td>
+                    <td>concept store</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">47</td>
+                    <td>doityourself</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">48</td>
+                    <td>dojo</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">49</td>
+                    <td>electronics</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">50</td>
+                    <td>games</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">51</td>
+                    <td>garden_centre</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">52</td>
+                    <td>general</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">53</td>
+                    <td>grocery</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">54</td>
+                    <td>hifi</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">55</td>
+                    <td>hospital</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">56</td>
+                    <td>interior_decoration</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">57</td>
+                    <td>kindergarten</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">58</td>
+                    <td>locksmith</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">59</td>
+                    <td>mobile_phone</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">60</td>
+                    <td>model</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">61</td>
+                    <td>music_school</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">62</td>
+                    <td>optician</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">63</td>
+                    <td>pastry</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">64</td>
+                    <td>pest_control</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">65</td>
+                    <td>pet_grooming</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">66</td>
+                    <td>printer_ink</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">67</td>
+                    <td>printing</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">68</td>
+                    <td>supermarket</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">69</td>
+                    <td>tool_hire</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">70</td>
+                    <td>veterinary</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">71</td>
+                    <td>video_games</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+                <tr>
+                    <td class="cc">72</td>
+                    <td>window_tinting</td>
+                    <td class="cc">1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        <br/>
+        <hr/>
+        Generated by <a href="https://github.com/glaciers-in-archives/snowman" target="_blank">Snowman</a> version 0.8.0-development
+
+        
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.datatables.net/2.0.0/js/dataTables.min.js"></script>
+        
+        <script src="https://cdn.datatables.net/2.0.0/js/dataTables.bootstrap5.min.js"></script>
+        
+        <script src="https://cdn.datatables.net/buttons/3.0.0/js/dataTables.buttons.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/3.0.0/js/buttons.bootstrap5.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+        
+        <script src="https://cdn.datatables.net/buttons/3.0.0/js/buttons.html5.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/3.0.0/js/buttons.print.min.js"></script>
+        
+        <script>
+            $(document).ready(function() {
+                
+                var dtConfig = {
+                    layout: {
+                        topStart: null,
+                        topEnd: null,
+                        bottomStart: 'info',
+                        bottomEnd: 'paging',
+                        bottom2Start: 'search',
+                        bottom2End: 'pageLength',
+                        bottom3Start: {
+                            buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
+                        }
+                    },
+                    columnDefs: [{
+                        targets: 'cc',
+                        render: function(data, type, row) {
+                            if (type === 'display' && data !== null && data !== '') {
+                                var num = parseFloat(data);
+                                if (!isNaN(num)) {
+                                    return num.toLocaleString('en-US');
+                                }
+                            }
+                            return data;
+                        }
+                    }]
+                };
+                
+                
+                $('#table-countries-absolute').DataTable(dtConfig);
+                $('#table-countries-percapita').DataTable(dtConfig);
+                $('#table-shoptypes-worldwide').DataTable(dtConfig);
+                $('#table-shoptypes-france').DataTable(dtConfig);
+            });
+        </script>
+    </body>
+</html>
