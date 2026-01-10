@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyQuotes - Add a Quote</title>
+  <script type="module" crossorigin src="./assets/index-C6-vpe_m.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-NMoNOMpC.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 MyQuotes</h1>
+            <div id="auth-section">
+                <button id="login-btn" class="btn btn-primary">Login with Solid</button>
+                <div id="user-info" class="hidden">
+                    <span id="user-name"></span>
+                    <button id="logout-btn" class="btn btn-secondary">Logout</button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <form id="quote-form" class="hidden">
+                <h2>Add a New Quote</h2>
+                
+                <fieldset>
+                    <legend>Quote Text <span class="required">*</span></legend>
+                    <p class="hint">At least one language is required</p>
+                    
+                    <div class="form-group">
+                        <label for="quote-en">
+                            <span class="lang-flag">🇬🇧</span> English
+                        </label>
+                        <textarea id="quote-en" name="quote-en" rows="3" placeholder="Enter the quote in English..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="quote-fr">
+                            <span class="lang-flag">🇫🇷</span> French
+                        </label>
+                        <textarea id="quote-fr" name="quote-fr" rows="3" placeholder="Entrez la citation en français..."></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Author Name</legend>
+                    <p class="hint">Optional - the person who said/wrote the quote</p>
+                    
+                    <div class="form-group">
+                        <label for="author-en">
+                            <span class="lang-flag">🇬🇧</span> English
+                        </label>
+                        <input type="text" id="author-en" name="author-en" placeholder="Author name in English...">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="author-fr">
+                            <span class="lang-flag">🇫🇷</span> French
+                        </label>
+                        <input type="text" id="author-fr" name="author-fr" placeholder="Nom de l'auteur en français...">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Wikidata Person</legend>
+                    <p class="hint">Optional - link to the author's Wikidata entry</p>
+                    
+                    <div class="form-group">
+                        <label for="wikidata-search">
+                            <span class="lang-flag">🔍</span> Search Wikidata
+                        </label>
+                        <div class="autocomplete-wrapper">
+                            <input type="text" id="wikidata-search" name="wikidata-search" 
+                                   placeholder="Type a person's name..." autocomplete="off">
+                            <div id="wikidata-suggestions" class="suggestions hidden"></div>
+                        </div>
+                        <input type="hidden" id="wikidata-uri" name="wikidata-uri">
+                        <div id="selected-person" class="selected-person hidden">
+                            <span id="selected-person-name"></span>
+                            <button type="button" id="clear-person" class="btn-clear">✕</button>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="form-actions">
+                    <button type="submit" id="submit-btn" class="btn btn-primary">
+                        Submit Quote
+                    </button>
+                </div>
+            </form>
+
+            <div id="login-prompt" class="login-prompt">
+                <p>Please login with your Solid account to add quotes.</p>
+            </div>
+
+            <div id="status-message" class="status-message hidden"></div>
+        </main>
+
+        <footer>
+            <p>Data stored in your Solid Pod</p>
+        </footer>
+    </div>
+
+</body>
+</html>
