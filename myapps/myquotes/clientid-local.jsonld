@@ -1,0 +1,13 @@
+{
+  "@context": "https://www.w3.org/ns/solid/oidc-context.jsonld",
+  "client_id": "http://localhost:5173/clientid-local.jsonld",
+  "client_name": "MyQuotes App (Local Dev)",
+  "redirect_uris": ["http://localhost:5173/", "http://localhost:5173/index.html"],
+  "post_logout_redirect_uris": ["http://localhost:5173/"],
+  "client_uri": "http://localhost:5173/",
+  "scope": "openid profile offline_access webid",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "default_max_age": 3600,
+  "require_auth_time": true
+}
